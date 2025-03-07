@@ -27,16 +27,23 @@ npm install
 node index.js
 
 🌐 Rotas da API
+
 🔹 Listar todos os veículos
+
 GET /veiculos
+
 📌 Retorna uma lista de veículos cadastrados.
 
 🔹 Buscar veículo por ID
+
 GET /veiculos/:id
+
 📌 Retorna os detalhes do veículo com o ID especificado.
 
 🔹 Cadastrar um novo veículo
+
 POST /veiculos
+
 📌 Adiciona um novo veículo à lista.
 
 🔹 Body (JSON):
@@ -54,7 +61,9 @@ POST /veiculos
 }
 
 🔹 Atualizar um veículo
+
 PUT /veiculos/:id
+
 📌 Atualiza as informações de um veículo já cadastrado.
 
 🔹 Body (JSON):
@@ -68,8 +77,11 @@ PUT /veiculos/:id
   "modelo": "Corolla",
   
   "ano": 2023
+  
 }
 
 🔹 Remover um veículo
+
 DELETE /veiculos/:id
+
 📌 Remove um veículo com o ID especificado.
